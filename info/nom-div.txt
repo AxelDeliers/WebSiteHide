@@ -1,18 +1,17 @@
-header
-	banner	
-		title-banner
-	nav
-		ul
-			li*X
-main
-	left-side
-		slider
-		slider-button
-	right-side
-		qr-code
-		text-rightside
-		social-rightside
-footer
-	footer-left
-	footer-center
-	footer-right
+définir le besoin
+	site vitrine sur une page
+	formulaire de création projet 
+	effet de zoom + focus 
+	effet navbar
+	animation libre
+
+page 1: 
+1) création du corps (html)
+2) gestion placement (css)
+3) gestion apparence generale (css)
+4) gestion navbar (js)
+5) gestion galerie (js)
+6) choix des polices / taille (css)
+7) finition 
+
+1982*972

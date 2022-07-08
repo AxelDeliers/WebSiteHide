@@ -7,8 +7,8 @@
     <link rel="icon" href="/picture/profil-greg.jpg" />
     <title>Mon projet tattoo</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="./css/project-style.css" />
-    <link rel="stylesheet" href="./js/project-app.js" />
+    <link rel="stylesheet" href="/css/project-style.css" />
+    <link rel="stylesheet" href="/js/project-app.js" />
 </head>
 <body>
   <header>
@@ -17,46 +17,106 @@
         <h1>GREG HIDE</h1>
       </div>
       <nav>
-        <a href="#">ACCEUIL</a>
-        <a href="#A-PROPOS">A-PROPOS   </a>
-        <a href="#GALERIE">GALERIE   </a>
-        <a href="#PROJET">PROJET   </a>
+        <a href="index.html">ACCEUIL</a>
+        <a href="index.html#A-PROPOS">A-PROPOS   </a>
+        <a href="index.html#GALERIE">GALERIE   </a>
+        <a href="index.html#PROJET">PROJET   </a>
       </nav>
     </div>
-
   </header>
+  <div class="bande"></div>
     <main>
       <div class="main-left">
-        <h2>PLACEMENT</h2>
-        <canvas id="canvas"></canvas>
+          <h2>Placement du tattoo</h2>
+          <canvas id="canvas"></canvas>
+          <div class="test">
+            <h3>Couleur de peau</h3>
+            <div class="pastille">
+            <a href="#"><div class="color1"></div></a>
+            <a href="#"><div class="color2"></div></a>
+            <a href="#"><div class="color3"></div></a>
+            <a href="#"><div class="color4"></div></a>
+            <a href="#"><div class="color5"></div></a>
+            <a href="#"><div class="color6"></div></a>
+          </div>
+          <div class="longLarg">
+            <label for="longueur">Longueur du tattoo</label>
+            <input type="text" name="longueur" id="longueur" placeholder=" taille en cm">
+            <label for="Largeur">Largeur du tattoo  </label>
+            <input type="text" name="largeur" id="largeur" placeholder=" taille en cm">
+          </div>
+          <div class="sect1-top">
+            <input type="checkbox" name="couleur" id="couleur" checked>En couleur?
+            <input type="checkbox" name="firstTattoo" id="firstTattoo">Premier tattoo?
+            <input type="checkbox" name="coverTattoo" id="coverTattoo">Recouvrement d'un ancien tattoo?
+          </div>
+        </div>
       </div>
       <div class="main-right">
-        <h2></h2>
+        <div class="info-tatoo-user">
+          <h2>Décris ton tattoo !</h2>
+          <textarea name="" id="" cols="30" rows="10" style="resize:none"></textarea>
+        
+          <div class="imgFile">
+            <label for="file">Exemple/Croquis :</label>
+            <input type="file" id="file" name="file" multiple>
+          </div></div>
+
+
+        <div class="section-1">
+          <div class="sect1-bot">
+            <h3>Budget :</h3>
+            <div class="sect1-bot-left">
+                <label for="budgetMin">Minimum
+                <input type="text" id="budgetMin" placeholder="Montant minimum en €">
+              </label>
+            </div>
+            <div class="sect1-bot-right">
+                <label for="budgetMax">Maximum
+                <input type="text" id="budgetMax" placeholder="Montant maximum en €">
+            </div>
+
+          </div>
+        </div>
       </div>
     </main>
-    <div class="section-1">
-      <div class="sect1-top">
-        <h2>DONNEES TECHNIQUES</h2>
-        <input type="checkbox" name="couleur" id="couleur" checked>En couleur?
-        <input type="checkbox" name="firstTattoo" id="firstTattoo">Premier tattoo?
-        <input type="checkbox" name="coverTattoo" id="coverTattoo">Recouvrement d'un ancien tattoo?
+    <div class="section-2">
+      <h2>A propos de vous :</h2>
+      <div class="sect2Input">
+      <div class="sect2-left">
+        <div class="name">
+        <label for="name">Nom :</label> 
+        <input type="text" id="name">
       </div>
-      <div class="sect1-bot">
-        <h2>BUDGET</h2>
-        <div class="sect1-bot-left">
-          <label for="budgetMin">
-            <input type="text" id="budgetMin" placeholder="Montant minimum en €">
-          </label>
-        </div>
-        <div class="sect1-bot-right">
-          <label for="budgetMax">
-            <input type="text" id="budgetMax" placeholder="Montant maximum en €">
-        </div>
+      <div class="prenom">
+        <label for="firstname">Prenom :</label> 
+        <input type="text" id="firstname">
+      </div>
+      <div class="ageDiv">
+        <label for="age">Age :</label> 
+        <input type="text" id="age">
+      </div>
+      </div>
+      <div class="sect2-right">
+        <div class="villeDiv">
+      <label for="town">Ville :</label> 
+      <input type="text" id="town">
+    </div>
+    <div class="emailDiv">
+      <label for="email">Email :</label> 
+      <input type="text" id="email">
+    </div>
+    <div class="telDiv">
+      <label for="tel">Telephone :</label> 
+      <input type="text" id="tel">
+    </div>
       </div>
     </div>
+    </div>
+
     <footer>
       <div class="footer-top">
-        <h2>ME REJOINDRE</h2>
+       <h2>ME REJOINDRE</h2>
       </div>
       <div class="footer-bot">
         <a href="https://www.facebook.com/Hidetattoo/"><img src="picture/social-media/facebook.png" alt="facebook">
